@@ -24,14 +24,13 @@ class Service {
     createLogger() {
         this.utils.logger = new this.dep.Logger(this.dep, this.logPath, this.serviceName, this.serviceId);
 
-        this.utils.logger.log(`Initializing ${this.serviceName} service...`);
-        this.utils.logger.log(`Service ID: ${this.serviceId}`);
+        this.utils.logger.info(`Initializing ${this.serviceName} service...`);
+        this.utils.logger.info(`Service ID: ${this.serviceId}`);
     }
 
     createConfigManager() {
         this.utils.config = new this.dep.Config(this.utils);
-        this.utils.config.loadConfig(this.dep.path.join(__dirname, '../../', 'config.json'));
-        // this.utils.logger.log(`Loaded config.json`);   
+        this.utils.config.loadConfig(this.dep.path.join(__dirname, '../../', 'config.json')); 
     }
 
     initDependencies() {}
