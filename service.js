@@ -7,6 +7,8 @@ class TokenService extends Service {
 
     initDependencies() {
         super.initDependencies();
+        const RouteLoader = require('./assets/network/RouteLoader.js');
+        this.utils.routeLoader = new RouteLoader(this.dep, this.utils);
     }
 
     init() {
@@ -14,6 +16,9 @@ class TokenService extends Service {
         this.createLogger();
         this.createConfigManager();
         this.initDependencies();
+        this.utils.logger.log(JSON.stringify(this.utils.config.getData()));
+
+        this.utils.routeLoader.scanRoutes();
     }
 }
 
