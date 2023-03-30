@@ -5,7 +5,7 @@ class Config {
     this.config = {}
     this.logger = utils.logger
 
-    this.logger.log("ConfigManager initialized");
+    this.logger.success("ConfigManager initialized");
   }
 
   loadConfig(path) {
@@ -17,7 +17,6 @@ class Config {
     // check if the config file is valid json
     try {
       this.config = JSON.parse(configFileContent);
-      console.log(this.config);
     } catch (e) {
       this.logger.error(`Error: the config file is not a valid json file`);
       return;
