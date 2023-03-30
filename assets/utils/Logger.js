@@ -64,6 +64,20 @@ class Logger {
         console.log(`${FgRed}${logString}${Reset}`);
         this.#writeLog('error', logString, this.uuid);
     }
+
+    success(message) {
+        this.generateNewTimestamp();
+        const logString = `[${this.timestamp}] ${this.serviceName}: ${message}`;
+        console.log(`${FgGreen}${logString}${Reset}`);
+        this.#writeLog('default', logString, this.uuid);
+    }
+
+    info(message) {
+        this.generateNewTimestamp();
+        const logString = `[${this.timestamp}] ${this.serviceName}: ${message}`;
+        console.log(`${FgBlue}${logString}${Reset}`);
+        this.#writeLog('default', logString, this.uuid);
+    }
 }
 
 module.exports = Logger;
