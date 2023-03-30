@@ -1,0 +1,23 @@
+{
+  "name": "api-endpoint-token",
+  "version": "1.0.0",
+  "description": "api endpoint for all token related requests",
+  "main": "service.js",
+  "author": "AsP3X",
+  "license": "MIT",
+  "packageManager": "yarn@3.5.0",
+  "scripts": {
+    "start": "node service.js",
+    "dev": "nodemon service.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
