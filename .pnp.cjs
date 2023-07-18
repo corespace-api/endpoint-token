@@ -32,7 +32,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["crypto", "npm:1.0.1"],\
             ["dotenv", "npm:16.0.3"],\
             ["express", "npm:4.18.2"],\
-            ["mongoose", "npm:7.0.3"],\
+            ["mongoose", "npm:7.3.4"],\
             ["nodemon", "npm:2.0.22"]\
           ],\
           "linkType": "SOFT"\
@@ -189,7 +189,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["crypto", "npm:1.0.1"],\
             ["dotenv", "npm:16.0.3"],\
             ["express", "npm:4.18.2"],\
-            ["mongoose", "npm:7.0.3"],\
+            ["mongoose", "npm:7.3.4"],\
             ["nodemon", "npm:2.0.22"]\
           ],\
           "linkType": "SOFT"\
@@ -293,10 +293,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["bson", [\
-        ["npm:5.1.0", {\
-          "packageLocation": "./.yarn/cache/bson-npm-5.1.0-71542db15f-5e1c6235b7.zip/node_modules/bson/",\
+        ["npm:5.4.0", {\
+          "packageLocation": "./.yarn/cache/bson-npm-5.4.0-2f854c8216-1c07e3d09f.zip/node_modules/bson/",\
           "packageDependencies": [\
-            ["bson", "npm:5.1.0"]\
+            ["bson", "npm:5.4.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1312,22 +1312,22 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["mongodb", [\
-        ["npm:5.1.0", {\
-          "packageLocation": "./.yarn/cache/mongodb-npm-5.1.0-2eee478213-993c14299a.zip/node_modules/mongodb/",\
+        ["npm:5.6.0", {\
+          "packageLocation": "./.yarn/cache/mongodb-npm-5.6.0-d7404fc735-5b1594b247.zip/node_modules/mongodb/",\
           "packageDependencies": [\
-            ["mongodb", "npm:5.1.0"]\
+            ["mongodb", "npm:5.6.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:e69e713a39971e31e61cf2c513f4aefb1d4e4ea116a6ed3354a37307348fd40d38998f845448977fdd892a93a717215341a3e350a113057a126ecd1073296a00#npm:5.1.0", {\
-          "packageLocation": "./.yarn/__virtual__/mongodb-virtual-bf7e8f0649/0/cache/mongodb-npm-5.1.0-2eee478213-993c14299a.zip/node_modules/mongodb/",\
+        ["virtual:c1408e44ec38debb371a67c3cacc6e4c8b69ae151ebd9f6f85533556815c6318d135299bea342fd57214f0a62f4c9e1c100bcc853cadb86138d70001ff427f97#npm:5.6.0", {\
+          "packageLocation": "./.yarn/__virtual__/mongodb-virtual-5b4b34f00b/0/cache/mongodb-npm-5.6.0-d7404fc735-5b1594b247.zip/node_modules/mongodb/",\
           "packageDependencies": [\
-            ["mongodb", "virtual:e69e713a39971e31e61cf2c513f4aefb1d4e4ea116a6ed3354a37307348fd40d38998f845448977fdd892a93a717215341a3e350a113057a126ecd1073296a00#npm:5.1.0"],\
+            ["mongodb", "virtual:c1408e44ec38debb371a67c3cacc6e4c8b69ae151ebd9f6f85533556815c6318d135299bea342fd57214f0a62f4c9e1c100bcc853cadb86138d70001ff427f97#npm:5.6.0"],\
             ["@aws-sdk/credential-providers", null],\
             ["@types/aws-sdk__credential-providers", null],\
             ["@types/mongodb-client-encryption", null],\
             ["@types/snappy", null],\
-            ["bson", "npm:5.1.0"],\
+            ["bson", "npm:5.4.0"],\
             ["mongodb-client-encryption", null],\
             ["mongodb-connection-string-url", "npm:2.6.0"],\
             ["saslprep", "npm:1.0.3"],\
@@ -1357,13 +1357,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["mongoose", [\
-        ["npm:7.0.3", {\
-          "packageLocation": "./.yarn/cache/mongoose-npm-7.0.3-e69e713a39-0ced556b0b.zip/node_modules/mongoose/",\
+        ["npm:7.3.4", {\
+          "packageLocation": "./.yarn/cache/mongoose-npm-7.3.4-c1408e44ec-1ffdb8449c.zip/node_modules/mongoose/",\
           "packageDependencies": [\
-            ["mongoose", "npm:7.0.3"],\
-            ["bson", "npm:5.1.0"],\
+            ["mongoose", "npm:7.3.4"],\
+            ["bson", "npm:5.4.0"],\
             ["kareem", "npm:2.5.1"],\
-            ["mongodb", "virtual:e69e713a39971e31e61cf2c513f4aefb1d4e4ea116a6ed3354a37307348fd40d38998f845448977fdd892a93a717215341a3e350a113057a126ecd1073296a00#npm:5.1.0"],\
+            ["mongodb", "virtual:c1408e44ec38debb371a67c3cacc6e4c8b69ae151ebd9f6f85533556815c6318d135299bea342fd57214f0a62f4c9e1c100bcc853cadb86138d70001ff427f97#npm:5.6.0"],\
             ["mpath", "npm:0.9.0"],\
             ["mquery", "npm:5.0.0"],\
             ["ms", "npm:2.1.3"],\
